@@ -38,5 +38,4 @@ __screenshots__/
 .vscode/
 .idea/
 
-node_modules/
 .pnp*

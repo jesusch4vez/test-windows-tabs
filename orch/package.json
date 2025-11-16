@@ -1,0 +1,17 @@
+{
+  "name": "test-windows-tabs-orch",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "echo `building node dist` && tsc",
+    "start": "node ./dist/index.js | bunyan"
+  },
+  "devDependencies": {
+    "@types/bunyan": "^1",
+    "typescript": "^5.5.3"
+  },
+  "private": true,
+  "dependencies": {
+    "bunyan": "^1.8.15"
+  }
+}
