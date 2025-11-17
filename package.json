@@ -5,7 +5,8 @@
   "scripts": {
     "foreach": "yarn workspaces foreach -ivA run",
     "bootstrap": "yarn foreach install && yarn foreach build",
-    "serve": "yarn foreach start"
+    "serve": "yarn foreach start",
+    "e2e": "yarn --cwd ui e2e"
   },
   "workspaces": [
     "ui/",
